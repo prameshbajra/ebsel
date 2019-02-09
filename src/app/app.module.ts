@@ -5,10 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
+import { MailGenComponent } from './mail-gen/mail-gen.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
     declarations: [
-        AppComponent
+        AppComponent,
+        MailGenComponent,
+        LoginComponent
     ],
     imports: [
         BrowserModule,
