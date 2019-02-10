@@ -1,15 +1,22 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from "@angular/router"
+
 
 @Component({
-  selector: 'app-login',
-  templateUrl: './login.component.html',
-  styleUrls: ['./login.component.scss']
+    selector: 'app-login',
+    templateUrl: './login.component.html',
+    styleUrls: ['./login.component.scss']
 })
 export class LoginComponent implements OnInit {
 
-  constructor() { }
+    constructor(private route: Router) { }
 
-  ngOnInit() {
-  }
+    ngOnInit() {
+    }
+
+    redirect() {
+        this.route.navigate(['/mail_gen'])
+
+    }
 
 }
