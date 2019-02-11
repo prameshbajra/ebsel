@@ -3,6 +3,8 @@
 
 ### Fake Account Generator
 
+### Angular 7
+
 <hr>
 
 # Incomplete project
