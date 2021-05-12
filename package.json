@@ -26,7 +26,7 @@
         "@angular/router": "^6.1.0",
         "angular-bootstrap-md": "^7.4.0",
         "angular2-csv": "^0.2.5",
-        "chart.js": "^2.5.0",
+        "chart.js": "^2.9.4",
         "core-js": "^2.5.4",
         "express": "^4.16.4",
         "file-saver": "^2.0.0",
