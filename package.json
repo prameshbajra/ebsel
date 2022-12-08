@@ -28,7 +28,7 @@
         "angular2-csv": "^0.2.5",
         "chart.js": "^2.5.0",
         "core-js": "^2.5.4",
-        "express": "^4.16.4",
+        "express": "^4.18.2",
         "file-saver": "^2.0.0",
         "font-awesome": "^4.7.0",
         "hammerjs": "^2.0.8",
